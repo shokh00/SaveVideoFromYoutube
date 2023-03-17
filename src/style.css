@@ -1,3 +1,37 @@
 a:nth-child(3){
   display: none;
 }
+
+.total{
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.forinput , .forbtn{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.forbtn button , .forinput input{
+  width: 25%;
+}
+
+@media screen and (max-width: 750px) {
+  .forbtn button , .forinput input{
+    width: 40%;
+  }
+}
+@media screen and (max-width: 585px) {
+  .forbtn button , .forinput input{
+    width: 55%;
+  }
+}
+@media screen and (max-width: 455px) {
+  .forbtn button , .forinput input{
+    width: 75%;
+  }
+}
